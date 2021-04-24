@@ -1,0 +1,65 @@
+{
+    "name": "Johan Naizu",
+    "short_name": "Johan",
+    "theme_color": "#f5b5b1",
+    "background_color": "#f9aaa5",
+    "display": "standalone",
+    "start_url":"/index.html",
+    "icons": [
+        {
+          "src": "/img/icon72.png",
+          "sizes": "72x72",
+          "type": "image/png",
+          "purpose": "any maskable"
+          
+        },
+        {
+          "src": "/img/icon96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any maskable"
+         
+        },
+        {
+            "src": "/img/icon128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        
+        },
+        {
+          "src": "/img/icon144.png",
+          "sizes": "144x144",
+          "type": "image/png",
+          "purpose": "any maskable"
+          
+        },
+        {
+          "src": "/img/icon152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+          
+        },
+        {
+          "src": "/img/icon192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
+          
+        },
+        {
+          "src": "/img/icon384.png",
+          "sizes": "384x384",
+          "type": "image/png",
+          "purpose": "any maskable"
+          
+        },
+        {
+          "src": "/img/icon512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+          
+        }
+      ]
+}
