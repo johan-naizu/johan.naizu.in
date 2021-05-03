@@ -1,8 +1,8 @@
 {
     "name": "Johan Naizu",
     "short_name": "Johan",
-    "theme_color": "#f5b5b1",
-    "background_color": "#f9aaa5",
+    "theme_color": "#6e8dc9",
+    "background_color": "#94b0ec",
     "display": "standalone",
     "start_url":"/index.html",
     "icons": [

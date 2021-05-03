@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex">
-    <meta property="og:image" content="https://johan.naizu.in/img/pfp-rounded.png">
-    <meta property="og:image:width" content="862" />
-    <meta property="og:image:height" content="856" />
+    <meta property="og:image" content="https://johan.naizu.in/img/avatar.png">
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="640" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://johan.naizu.in">
     <meta property="og:title" content="Johan Naizu">
-    <meta content="#fc7485" data-react-helmet="true" name="theme-color">
+    <meta content="#94b0ec" data-react-helmet="true" name="theme-color">
     <meta name=”viewport” content=”width=device-width,initial-scale=1″>
     <meta property="og:description" content="I'm Johan Naizu.A software developer with a fascination for adventure">
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
@@ -19,13 +19,13 @@
         body {
             background-color: #ffffff;
    
-            background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#f9aaa5 4px, transparent 4px) 0 -2px, linear-gradient(90deg, #f9aaa5 4px, #ffffff 4px) -2px 0;
+            background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#b1d8e9 4px, transparent 4px) 0 -2px, linear-gradient(90deg, #b1d8e9 4px, #ffffff 4px) -2px 0;
             background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
         }
         .fullscreenDiv {
             background-color:  transparent;
-            width: 100%;
-            height: auto;
+            width: 100vw;
+            height: 100vh;
             bottom: 0;
             top: 0;
             left: 0;
@@ -34,16 +34,15 @@
         .center1 {
             position: absolute;
             width: 500px;
-            height: 250px;
-            top: 65%;
+            
+            top: 50%;
             left: 52%;
             font-size:300%;
             text-align: center;
             font-weight: bold;
             font-family: Courier,monospace;
             color: #000000;
-            margin-left: -250px; /* margin is -0.5 * dimension */
-            margin-top: -125px;
+            transform: translate(-50%,-50%);
 
         }
 
